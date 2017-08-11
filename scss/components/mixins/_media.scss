@@ -1,0 +1,7 @@
+$MIN-WIDTH-TAB: 767px;
+
+@mixin media-tab {
+  @media screen and (min-width: $MIN-WIDTH-TAB) {
+    @content;
+  }
+}

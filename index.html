@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cafe Frontend</title>
+<meta name="description" content="Cafe Frontend | Scss responsive sample."/>
+<link rel="stylesheet" href="css/index.css"/>
+<body class="cafe-f">
+
+<header class="header">
+  <h1><img class="header-logo" src="images/coffee_logo.png" alt="ロゴ"/></h1>
+  <nav class="header-nav">
+    <ul class="header-nav-list">
+      <li class="header-nav-item"><a href="#quality">クオリティ</a></li>
+      <li class="header-nav-item"><a href="#food">フード</a></li>
+      <li class="header-nav-item"><a href="#desert">デザート</a></li>
+      <li class="header-nav-item"><a href="#shop">スペース</a></li>
+      <li class="header-nav-item"><a href="#school">コーヒースクール</a></li>
+    </ul>
+  </nav>
+  <div class="header-menu-sp">
+    <div class="js-burger header-burger">
+      <span class="js-burger-bar burger-bar bar1"></span>
+      <span class="js-burger-bar burger-bar bar2"></span>
+      <span class="js-burger-bar burger-bar bar3"></span>
+    </div>
+  </div>
+  <nav class="js-header-nav-sp header-nav-sp">
+    <ul class="js-header-nav-inner">
+      <li><a href="#quality" class="header-nav-sp-link">クオリティ</a></li>
+      <li><a href="#food" class="header-nav-sp-link">フード</a></li>
+      <li><a href="#desert" class="header-nav-sp-link">デザート</a></li>
+      <li><a href="#shop" class="header-nav-sp-link">スペース</a></li>
+      <li><a href="#school" class="header-nav-sp-link">コーヒースクール</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main">
+  <div class="main-key">
+    <!--<img class="main-key-container" src="images/key.jpg" alt="キービジュアル"/>-->
+  </div>
+
+  <section class="main-section">
+    <div class="main-section-inner">
+      <h2 id="quality" class="main-section-title">クオリティ</h2>
+      <h3 class="main-section-sub-title">
+        最高級のコーヒーで<br class="is-visible-sp" />
+        おもてなしいたします
+      </h3>
+      <div>
+        <p class="main-section-text">
+          Cafe Frontendはお客様を最高級のコーヒーでおもてなしいたします。
+          南米やアフリカ、アジアなど世界各地の代表的な銘柄を揃えております。新鮮な最高品質のコーヒーを当店の卓越したドリップ技術とともにお愉しみください。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="beans-bg">
+  </div>
+
+  <section class="main-section grey">
+    <div class="main-section-inner">
+      <h2 id="food" class="main-section-title">フード</h2>
+      <h3 class="main-section-sub-title">店内で焼き上げたパンはサクッと甘みがあり<br class="is-visible-sp" />特におすすめの逸品です。</h3>
+      <div class="main-section-flex">
+        <p class="main-section-text mb40">
+          毎日店内では焼き立てのパンを焼いて、お待ちしております。パスタやサンドイッチなどのアラカルトメニューを豊富にご用意しております。
+        </p>
+        <div><img src="images/bread.jpg" class="main-section-img" alt="スクール"/></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-section">
+    <div class="main-section-inner">
+      <h2 id="desert" class="main-section-title">デザート</h2>
+      <h3 class="main-section-sub-title">コーヒーのお供にピッタリな<br class="is-visible-sp" />デザート・スウィーツを揃えております。</h3>
+      <div class="main-section-flex flex-reverse">
+        <p class="main-section-text mb40">
+          モンブランやチーズケーキなどの各種ケーキからパフェやヨーグルトなど種類豊富なデザートを用意しております。
+        </p>
+        <div><img src="images/sweets.jpg" class="main-section-img" alt="スクール"/></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-section grey">
+    <div class="main-section-inner">
+      <h2 id="shop" class="main-section-title">スペース</h2>
+      <h3 class="main-section-sub-title">おしゃれなJazzが流れる最高の空間で<br class="is-visible-sp" />心ゆくまでお寛ぎください</h3>
+      <div class="main-section-flex">
+        <p class="main-section-text mb40">
+          都心にあって、お客様が至福の一杯を味わっていただけるよう空間にこだわりをもっております。都会の喧騒から離れて、ゆっくりとリラックスしてお寛ぎください。
+        </p>
+        <div><img src="images/space.jpg" class="main-section-img" alt="スペース"/></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-section">
+    <div class="main-section-inner">
+      <h2 id="school" class="main-section-title">コーヒースクール</h2>
+      <h3 class="main-section-sub-title">一流のコーヒーマイスターによる<br class="is-visible-sp" />技術を直接身につけられます</h3>
+      <div class="main-section-flex flex-reverse">
+        <p class="main-section-text mb40">
+          銘柄に合わせたハンドドリップの方法から、豆の挽き具合の調整まで、少人数コースでしっかり身につけることができます。
+        </p>
+        <div><img src="images/coffee.jpg" class="main-section-img" alt="スクール"/></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <small class="footer-cp">Cafe Frontend</small>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "cafe_frontend",
+  "version": "1.0.0",
+  "description": "sample page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_tasks/sass.js"
+  },
+  "author": "Programmine",
+  "license": "UNLICENSED",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
